@@ -9,7 +9,7 @@ class TasksController < ApplicationController
   end
   
   def new
-    @task = Task.new(content: '例：task〇')
+    @task = Task.new(content: 'task〇')
   end
   
   def create
